@@ -26,6 +26,7 @@ const agregarAmigo = () => {
   amigos.push(nombreAmigo);
 
   actualizarAmigo();
+  resultadoContainer.replaceChildren();
 
   resetInput();
 
